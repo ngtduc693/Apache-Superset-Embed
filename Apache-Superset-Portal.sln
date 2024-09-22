@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apache-Superset-Portal.AppHost", "Apache-Superset-Portal.AppHost\Apache-Superset-Portal.AppHost.csproj", "{F34455CC-3F1B-4E26-8BB6-5AA295FE5F8A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apache-Superset-Portal.ServiceDefaults", "Apache-Superset-Portal.ServiceDefaults\Apache-Superset-Portal.ServiceDefaults.csproj", "{596CB5C8-F922-4E57-932A-2CF49089477E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apache-Superset-Portal.ApiService", "Apache-Superset-Portal.ApiService\Apache-Superset-Portal.ApiService.csproj", "{BF8150EA-5C27-47A5-8458-DAAFF3097668}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apache-Superset-Portal.Web", "Apache-Superset-Portal.Web\Apache-Superset-Portal.Web.csproj", "{76936AA0-1305-475C-8FA7-3070FA2F91C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apache-Superset-Portal.Tests", "Apache-Superset-Portal.Tests\Apache-Superset-Portal.Tests.csproj", "{C999BD6C-EF48-43CF-ACCA-FEF0BFB20FED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F34455CC-3F1B-4E26-8BB6-5AA295FE5F8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F34455CC-3F1B-4E26-8BB6-5AA295FE5F8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F34455CC-3F1B-4E26-8BB6-5AA295FE5F8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F34455CC-3F1B-4E26-8BB6-5AA295FE5F8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{596CB5C8-F922-4E57-932A-2CF49089477E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{596CB5C8-F922-4E57-932A-2CF49089477E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{596CB5C8-F922-4E57-932A-2CF49089477E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{596CB5C8-F922-4E57-932A-2CF49089477E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF8150EA-5C27-47A5-8458-DAAFF3097668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF8150EA-5C27-47A5-8458-DAAFF3097668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF8150EA-5C27-47A5-8458-DAAFF3097668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF8150EA-5C27-47A5-8458-DAAFF3097668}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76936AA0-1305-475C-8FA7-3070FA2F91C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76936AA0-1305-475C-8FA7-3070FA2F91C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76936AA0-1305-475C-8FA7-3070FA2F91C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76936AA0-1305-475C-8FA7-3070FA2F91C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C999BD6C-EF48-43CF-ACCA-FEF0BFB20FED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C999BD6C-EF48-43CF-ACCA-FEF0BFB20FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C999BD6C-EF48-43CF-ACCA-FEF0BFB20FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C999BD6C-EF48-43CF-ACCA-FEF0BFB20FED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E95FAF1C-B008-4684-9D70-8B6CDC6F29CC}
+	EndGlobalSection
+EndGlobal
